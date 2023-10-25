@@ -25,3 +25,5 @@ console.log(undefined == 0); //false
 console.log(undefined > 0); //false
 console.log(undefined < 0); //false
 
+// === => strict checking
+console.log("2" === 2); //false
