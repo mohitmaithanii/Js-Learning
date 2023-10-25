@@ -1,6 +1,6 @@
-// Conversion of datatypes
+// Conversion of datatypes =>
 
-// example 1=>
+// example 1 ->
 let score = "33"; // String
 
 // check type of variable
@@ -11,7 +11,7 @@ let valueInNumber = Number(score);
 console.log(typeof valueInNumber); // Number
 console.log(valueInNumber); // print value = 33
 
-// example 2=>
+// example 2 ->
 let value = null;
 
 console.log(typeof value);
