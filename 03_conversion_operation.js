@@ -1,4 +1,4 @@
-// Conversion Operation
+// Conversion of datatypes
 
 // example 1=>
 let score = "33"; // String
@@ -48,3 +48,5 @@ let someNumber = 33;
 let stringNumber = String(someNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber); // string
+
+
