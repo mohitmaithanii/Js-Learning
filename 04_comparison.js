@@ -27,3 +27,9 @@ console.log(undefined < 0); //false
 
 // === => strict checking
 console.log("2" === 2); //false
+
+/* 
+link to study =>
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+*/
