@@ -1,4 +1,4 @@
-// String in Js =>
+// Strings in Js =>
 
 const name = "mohit";
 const repoCount = 50;
