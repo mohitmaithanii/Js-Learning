@@ -1,4 +1,4 @@
-// array =>
+// array => The Array object, enables storing a collection of multiple items under a single variable name, and has members for performing common array operations.
 
 const myArr = [0, 1, 2, 3, 4];
 const myHeros = ["spiderman", "batman", "superman"];
@@ -38,7 +38,9 @@ console.log(myArr); //[ 0, 1, 2, 3, 4 ]
 console.log(newArr); //0,1,2,3,4
 console.log(typeof newArr); //string
 
-//slice =>
+
+//slice => Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array.
+
 console.log("A", myArr);
 
 const myn1 = myArr.slice(1, 3);
@@ -46,7 +48,8 @@ const myn1 = myArr.slice(1, 3);
 console.log(myn1); //[ 1, 2 ]
 console.log("B", myArr); //B [ 0, 1, 2, 3, 4 ]
 
-//splice => 
+//splice => Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+
 const myn2 = myArr.splice(1, 3);
 
 console.log("C", myArr); //C [ 0, 4 ]
