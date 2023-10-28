@@ -13,7 +13,7 @@ const allHeros = marvelHeros.concat(dcHeros);
 
 console.log(allHeros); //[ 'thor', 'ironman', 'spiderman', 'superman', 'flash', 'batman' ]
 
-//spread => The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
+//spread => The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments or elements are expected.
 const allNewHeros = [...marvelHeros, ...dcHeros];
 
 console.log(allNewHeros); //[ 'thor', 'ironman', 'spiderman', 'superman', 'flash', 'batman' ]
