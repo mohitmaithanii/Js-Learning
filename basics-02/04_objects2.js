@@ -57,6 +57,7 @@ const user = [
 ];
 console.log(user[1].email); //xyz@gmail.com
 
+// keys, values, entries =>
 console.log(twitterUser); //{ id: '123abc', name: 'mohit', isLoggedIn: 'false' }
 console.log(Object.keys(twitterUser)); //[ 'id', 'name', 'isLoggedIn' ]
 console.log(Object.values(twitterUser)); //[ '123abc', 'mohit', 'false' ]

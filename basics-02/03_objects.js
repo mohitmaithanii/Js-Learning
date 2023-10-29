@@ -1,4 +1,4 @@
-// singleton
+// singleton objects =>
 
 /* 
 object literals => It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax
