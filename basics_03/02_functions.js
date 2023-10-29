@@ -31,3 +31,10 @@ handleObject({
    age: 18,
 });
 
+// function with array ->
+const myNewArray = [200, 400, 100, 600];
+
+function returnSecondValue(getArray) {
+   return getArray[1];
+}
+console.log(returnSecondValue(myNewArray));
