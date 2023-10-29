@@ -7,14 +7,15 @@ function sayMyName() {
    console.log("i");
    console.log("t");
 }
-//sayMyName();
+sayMyName();
 
 function addTwoNumbers(num1, num2) {
-   //(parameter)
+    //(parameter)
    console.log(num1 + num2);
 }
 
-addTwoNumbers(3, 4); //arguments
+addTwoNumbers(3, 4); //arguments 
+
 
 function addTwoNumbers(num1, num2) {
    //let result = num1 + num2;
@@ -30,3 +31,10 @@ function loginUserMessage(username) {
    return `${username} just logged in`;
 }
 console.log(loginUserMessage("mohit")); //mohit just logged in
+
+function loginUserMessage(username = "sam") {
+   //default parameters
+   return `${username} just logged in`;
+}
+console.log(loginUserMessage()); //sam just logged in
+
