@@ -24,12 +24,12 @@ function handleObject(anyobject) {
       `username is ${anyobject.username} and price is ${anyobject.age}`
    );
 }
-handleObject(user);
+handleObject(user); //username is mohit and price is 21
 
 handleObject({
    username: "sam",
    age: 18,
-});
+}); //username is sam and price is 18
 
 // function with array ->
 const myNewArray = [200, 400, 100, 600];
@@ -37,4 +37,4 @@ const myNewArray = [200, 400, 100, 600];
 function returnSecondValue(getArray) {
    return getArray[1];
 }
-console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue(myNewArray)); //400
