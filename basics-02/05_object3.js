@@ -1,4 +1,5 @@
 //Objects destructuring =>
+
 const course = {
    name: "mohit",
    courseName: "Js in hind",
