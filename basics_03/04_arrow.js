@@ -48,3 +48,4 @@ const addTwo = (num1, num2) => {
 //const addTwo = (num1, num2) => ({ username: "mohit" }); //{ username: 'mohit' }
 
 console.log(addTwo(3, 4));
+
