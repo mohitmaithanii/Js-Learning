@@ -8,30 +8,27 @@ const user = {
    },
 };
 
-//user.welcomeMessage();
-//user.username = "sam";
-//user.welcomeMessage();
+user.welcomeMessage();
+user.username = "sam";
+user.welcomeMessage();
 
-//console.log(this); //{}
+console.log(this); //{}
 
-/* function fun() {
+function fun() {
    let username = "mohit";
    console.log(this.username);
 }
-fun(); //undefined 
-*/
+fun(); //undefined
 
-/* const fun2 = function () {
+const fun2 = function () {
    let username = "mohit";
    console.log(this.username);
 };
 
 fun2(); //undefined
- */
 
-/* const fun3 = () => {
+const fun3 = () => {
    let username = "mohit";
    console.log(this.username);
 };
 fun3(); //undefined
- */
