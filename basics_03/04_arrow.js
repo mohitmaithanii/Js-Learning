@@ -1,3 +1,5 @@
+//this keyword =>
+
 const user = {
    username: "mohit",
    age: 21,
@@ -32,3 +34,17 @@ const fun3 = () => {
    console.log(this.username);
 };
 fun3(); //undefined
+
+//Arrow function =>
+
+const addTwo = (num1, num2) => {
+   return num1 + num2;
+};
+
+//const addTwo = (num1, num2) => num1 + num2;
+
+//const addTwo = (num1, num2) => ( num1 + num2 );
+
+//const addTwo = (num1, num2) => ({ username: "mohit" }); //{ username: 'mohit' }
+
+console.log(addTwo(3, 4));
