@@ -26,16 +26,13 @@ document.getElementById("title").getAttribute("class");
 // setAttribute => Sets the value of element's first attribute whose qualified name is qualifiedName to value.
 
 document.getElementById("title").setAttribute("class", "test heading");
-
 // class="test heading"
 
 const title = document.getElementById("title");
 
 // styling =>
 title.style.backgroundColor = "green";
-
 title.style.padding = "15px";
-
 title.style.borderRadius = "15px";
 
 title.innerText;
@@ -69,3 +66,27 @@ document.querySelector(".heading");
             DOM learning on Youtube <span style="display:none;">test text</span>
         </h1> 
 */
+
+document.querySelector('input[type="password"]');
+// input
+
+const myUl = document.querySelector("ul");
+const changeColor = myUl.querySelector("li");
+
+changeColor.style.backgroundColor = "orange";
+changeColor.style.padding = "10px";
+changeColor.style.borderRadius = "10px";
+
+// querySelectorAll =>
+document.querySelectorAll("li");
+/* NodeList(3) [li, li, li] */
+
+const tempList = document.querySelectorAll("li");
+tempList[1].style.backgroundColor = "purple";
+tempList[1].style.padding = "10px";
+tempList[1].style.borderRadius = "10px";
+
+/* tempList.forEach(function(l) {
+    l.style.backgroundColor = "yellow"
+}) */
+
