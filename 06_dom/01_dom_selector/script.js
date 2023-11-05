@@ -90,3 +90,5 @@ tempList[1].style.borderRadius = "10px";
     l.style.backgroundColor = "yellow"
 }) */
 
+// getElementsByClassName =>
+const tempClass = document.getElementsByClassName("list-item");
