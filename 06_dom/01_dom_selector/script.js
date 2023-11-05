@@ -73,25 +73,25 @@ document.querySelector('input[type="password"]');
 const myUl = document.querySelector("ul");
 const changeColor = myUl.querySelector("li");
 
-/* changeColor.style.backgroundColor = "orange";
+changeColor.style.backgroundColor = "orange";
 changeColor.style.padding = "10px";
-changeColor.style.borderRadius = "10px"; */
+changeColor.style.borderRadius = "10px";
 
-// querySelectorAll =>
+// querySelectorAll => Returns all element descendants of node that match selectors.
 document.querySelectorAll("li");
 /* NodeList(3) [li, li, li] */
 
 const tempList = document.querySelectorAll("li");
 
-/* tempList[1].style.backgroundColor = "purple";
+tempList[1].style.backgroundColor = "purple";
 tempList[1].style.padding = "10px";
 tempList[1].style.borderRadius = "10px";
 
-tempList.forEach(function(l) {
-    l.style.backgroundColor = "yellow"
-}) */
+tempList.forEach(function (l) {
+   l.style.backgroundColor = "yellow";
+});
 
-// getElementsByClassName =>
+// getElementsByClassName => Returns a HTMLCollection of the elements in the object on which the method was invoked that have all the classes given by classNames.
 const tempClass = document.getElementsByClassName("list-item");
 const myConvertedArray = Array.from(tempClass);
 
