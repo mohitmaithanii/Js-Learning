@@ -9,5 +9,6 @@ for (let i = 0; i < parent.children; i++) {
 // firstElementChild
  parent.children[1].style.color = "orange";
 console.log(parent.firstElementChild);
-
+// lastElementChild
+console.log(parent.lastElementChild);
 
