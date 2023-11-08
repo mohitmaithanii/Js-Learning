@@ -33,3 +33,11 @@ console.log(dayOne.nextElementSibling);
 
 console.log("NODES: ", parent.childNodes);
 // NODES:  NodeList(13) [text, div.day, text, div.day, text, div.day, text, div.day, text, div.day, text, div.day, text]
+
+
+// createElement
+const div = document.createElement("div");
+
+console.log(div);
+div.className = "main";
+div.id = Math.round(Math.random() * 10 + 1);
