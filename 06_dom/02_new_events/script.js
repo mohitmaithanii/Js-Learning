@@ -34,10 +34,18 @@ console.log(dayOne.nextElementSibling);
 console.log("NODES: ", parent.childNodes);
 // NODES:  NodeList(13) [text, div.day, text, div.day, text, div.day, text, div.day, text, div.day, text, div.day, text]
 
-
 // createElement
 const div = document.createElement("div");
 
 console.log(div);
 div.className = "main";
 div.id = Math.round(Math.random() * 10 + 1);
+div.setAttribute("title", "code");
+div.style.backgroundColor = "orange";
+div.style.padding = "10px";
+div.style.borderRadius = "15px";
+
+// createTextNode
+const addText = document.createTextNode(" code with xyz");
+div.appendChild(addText);
+document.body.appendChild(div);
