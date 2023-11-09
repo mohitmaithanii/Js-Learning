@@ -24,3 +24,6 @@ secondLang.replaceWith(newLi);
 const firstLang = document.querySelector("li:first-child");
 firstLang.outerHTML = "<li>TypeScript</li>";
 
+// remove =>
+const lastLang = document.querySelector("li:last-child");
+lastLang.remove();
